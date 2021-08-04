@@ -1,0 +1,4 @@
+Hola mundo!
+Yo soy un archivo de texto de plano
+y tengo varias líneas
+dentro de mi.
