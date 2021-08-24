@@ -1,8 +1,6 @@
-
-import { saludo } from './js/components';
+import { saludar } from './js/componentes';
 import './styles.css';
 
+const nombre = 'Fernando';
 
-const nombre = 'David';
-saludo(nombre);
-console.log('Fin del archivo main');
+saludar( nombre );

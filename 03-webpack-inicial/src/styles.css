@@ -1,5 +1,8 @@
 html, body {
     margin: 0;
     background-color: #ddd;
-    box-sizing: border-box;
+}
+
+img { 
+    width: 150px;
 }
