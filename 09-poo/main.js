@@ -69,3 +69,74 @@ const laura = new Student2({
 
 laura.aprobarCurso('Curso de python')
 console.log(`🚀 ~ laura`, laura);
+
+
+class LearningPath {
+
+    constructor({
+        name,
+        courses = []
+    }) {
+        this.name = name;
+        this.courses = courses;
+    }
+}
+
+const escuelaWeb = new LearningPath({
+    name: 'Escuela de Desarrollo Web',
+    courses: [
+        'Curso definitivo de HTML y CSS',
+        'Curso práctico de HTML y CSS',
+    ]
+});
+const escuelaData = new LearningPath({
+    name: 'Escuela de Data science',
+    courses: [
+        'Curso Data Business',
+        'Curso de BI',
+    ]
+});
+const escuelaVgs = new LearningPath({
+    name: 'Escuela de video juegos',
+    courses: [
+        'Curso Introducción a unity',
+        'Curso Unreal',
+    ]
+});
+
+class Course {
+    constructor({
+        name,
+        classes
+    }) {
+        this._name = name,
+        this.classes = classes
+    }
+
+    get name() {
+        return this._name;
+    }
+    set name(name) {
+        this._name = name;
+    }
+}
+
+function videoPlay(id) {
+    const urlSecret = 'https://secret.com/'+id; 
+    console.log('Video play');
+}
+
+function videoStop(id) {
+    const urlSecret = 'https://secret.com/'+id; 
+    console.log('Video stop');
+}
+
+class PlatziClass {
+    constructor({
+        name,
+        videoID
+    }) {
+        this.name = name;
+        this.videoID = videoID
+    }
+}
