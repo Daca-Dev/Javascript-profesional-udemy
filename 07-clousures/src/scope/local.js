@@ -1,6 +1,6 @@
 
 const helloWorld = () => {
-    const hello = "Helo World";
+    const hello = "Hello World";
     console.log(hello);
 }
 
@@ -10,10 +10,10 @@ var scope = "I am global";
 
 const functionScope = () => {
     var scope = "I am just a local";
-    const funct = () => {
+    const myFunction = () => {
         return scope
     }
-    console.log(funct());
+    console.log(myFunction());
 }
 
 functionScope();
