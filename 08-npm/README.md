@@ -1,4 +1,6 @@
-# Procedimiento al crear un proyecto
+# NPM: packages and modules gestor
 
-1. Crear un repositorio `git init`
-2. crear un proyecto de node `npm node`
+## Install
+
+## Scripts
+

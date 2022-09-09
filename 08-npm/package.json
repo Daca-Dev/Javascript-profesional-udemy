@@ -1,22 +1,23 @@
 {
-  "name": "js-npm",
+  "name": "11-npm-platzi",
   "version": "1.0.0",
-  "description": "Construir un paquete para node",
-  "main": "src/index.js",
+  "description": "This is a example of how to create a NPM package",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "keywords": [
     "javascript",
     "node",
-    "package"
+    "test"
   ],
-  "author": "David Casas <ise.david.casas@gmail.com>",
+  "author": "David Casas",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.29.1"
+    "moment": "^2.29.4",
+    "react": "^18.2.0"
   },
   "devDependencies": {
-    "date-fns": "^2.22.1"
+    "eslint": "^8.23.0"
   }
 }
