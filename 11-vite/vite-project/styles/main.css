@@ -1,0 +1,9 @@
+@import './main.scss';
+
+body {
+  background-color: beige;
+}
+
+h1.title {
+  color: darkslategrey;
+}
